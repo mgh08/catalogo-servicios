@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Masaje relajante",
+    "description": "Técnica suave para liberar estrés y ansiedad, con aromas sutiles.",
+    "price": 90000,
+    "duration": "60 min",
+    "category": "Relajación",
+    "image": "https://images.unsplash.com/photo-1584467735871-6b84df4e8bd4?q=80&w=1200&auto=format&fit=crop"
+  },
+  {
+    "id": 2,
+    "name": "Masaje descontracturante",
+    "description": "Enfocado en puntos de tensión y fibras profundas para aliviar contracturas.",
+    "price": 120000,
+    "duration": "75 min",
+    "category": "Terapéutico",
+    "image": "https://images.unsplash.com/photo-1596040033229-7d77c2d1dc5f?q=80&w=1200&auto=format&fit=crop"
+  },
+  {
+    "id": 3,
+    "name": "Masaje deportivo",
+    "description": "Ideal antes o después de entrenamientos intensos. Mejora recuperación.",
+    "price": 110000,
+    "duration": "60 min",
+    "category": "Terapéutico",
+    "image": "https://images.unsplash.com/photo-1599050751791-64b7f67a95ff?q=80&w=1200&auto=format&fit=crop"
+  },
+  {
+    "id": 4,
+    "name": "Reflexología podal",
+    "description": "Estimulación de puntos reflejos en los pies para equilibrio general.",
+    "price": 80000,
+    "duration": "45 min",
+    "category": "Holístico",
+    "image": "https://images.unsplash.com/photo-1556229041-0d6fd997d068?q=80&w=1200&auto=format&fit=crop"
+  },
+  {
+    "id": 5,
+    "name": "Limpieza facial profunda",
+    "description": "Higiene profesional con extracción suave e hidratación.",
+    "price": 95000,
+    "duration": "60 min",
+    "category": "Facial",
+    "image": "https://images.unsplash.com/photo-1556227701-8714e8d2709d?q=80&w=1200&auto=format&fit=crop"
+  },
+  {
+    "id": 6,
+    "name": "Masaje con piedras calientes",
+    "description": "Calor terapéutico que relaja músculos y mejora la circulación.",
+    "price": 130000,
+    "duration": "75 min",
+    "category": "Relajación",
+    "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=1200&auto=format&fit=crop"
+  },
+  {
+    "id": 7,
+    "name": "Spa de manos",
+    "description": "Exfoliación, mascarilla nutritiva y masaje hidratante.",
+    "price": 60000,
+    "duration": "40 min",
+    "category": "Spa",
+    "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad63d1?q=80&w=1200&auto=format&fit=crop"
+  },
+  {
+    "id": 8,
+    "name": "Ritual aromaterapia",
+    "description": "Combinación de aceites esenciales y respiración para calmar la mente.",
+    "price": 100000,
+    "duration": "50 min",
+    "category": "Holístico",
+    "image": "https://images.unsplash.com/photo-1556227701-3f2f1b5b4a28?q=80&w=1200&auto=format&fit=crop"
+  }
+]

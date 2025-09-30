@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Catálogo de Servicios</title>
+  <meta name="description" content="Portafolio de servicios - solo lectura" />
+  <meta name="theme-color" content="#068B99" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="brand-row">
+        <img class="logo" src="assets/logo.svg" alt="" aria-hidden="true">
+        <div>
+          <h1 id="brand">Catálogo</h1>
+          <p id="tagline" class="muted">Consulta nuestro portafolio. Solo lectura.</p>
+        </div>
+      </div>
+
+      <div class="actions">
+        <a id="cta-wsp" class="btn primary" href="#" target="_blank" rel="noopener">
+          <span>Escríbenos por WhatsApp</span>
+        </a>
+        <a id="cta-ig" class="btn ghost" href="#" target="_blank" rel="noopener">
+          Instagram
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="toolbar" aria-label="Filtros del catálogo">
+      <div class="search">
+        <label for="search" class="sr-only">Buscar servicios</label>
+        <input id="search" type="search" placeholder="Buscar (ej: relajante, descontracturante, facial)">
+      </div>
+      <div id="cats" class="chips" role="tablist" aria-label="Categorías"></div>
+    </section>
+
+    <section aria-live="polite" aria-busy="false">
+      <div id="grid" class="grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <small>© <span id="year"></span> <span data-bind="brand">Tu Marca</span>. Hecho con ❤️</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="script.js" defer></script>
+</body>
+</html>
